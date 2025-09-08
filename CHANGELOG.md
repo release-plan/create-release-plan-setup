@@ -1,5 +1,16 @@
 # Changelog
 
+## Release (2025-09-08)
+
+* create-release-plan-setup 5.0.0 (major)
+
+#### :boom: Breaking Change
+* `create-release-plan-setup`
+  * [#227](https://github.com/embroider-build/create-release-plan-setup/pull/227) drop support for Node 18 ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
 ## Release (2025-03-13)
 
 * create-release-plan-setup 4.3.0 (minor)
