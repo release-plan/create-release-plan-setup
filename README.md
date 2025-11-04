@@ -52,23 +52,20 @@ As this workflow automatically creates a PR for you during the release process y
 
 - open the settings for your repo
 - click Actions > General in the left menu
-- scroll to the Workflow permissions section at the botom of the page
+- scroll to the Workflow permissions section at the bottom of the page
 - make sure that your GITHUB_TOKEN has `Read and write permissions` and that the `Allow GitHub Actions to create and approve pull requests` is checked
 - Hit save
 
-### Create a NPM_TOKEN
+### Set up Trusted Publishing for your package
 
-Once you're ready to do your first release with this release-plan setup your GitHub Actions will need to have a npm token to actually do the release. We recommend that you generate a single Granular Access Token that is able to release your package (or all the packages in a your monorepo).
+Once you're ready to do your first release with this release-plan setup your GitHub Actions will 
+need to be authorized to publish your package to npm. To do this, you will set up
+[Trusted Publishing](https://docs.npmjs.com/trusted-publishers#for-github-actions) for your package.
+This is sometimes referred to as 'OIDC'.
 
-If you are creating a new package, you will need to manually publish once first in order to generate a Granular Access Token. Be sure you are okay with the version in `package.json` as the first version then run `npm publish`. 
-
-To create an access token you can follow [this guide on the npm docs](https://docs.npmjs.com/creating-and-viewing-access-tokens#creating-granular-access-tokens-on-the-website). Once you have your access token you can add it to your repo following these steps:
-
-- open the settings for your repo
-- click `Secrets and variables` > `Actions` in the left menu
-- in the `Repository secrets` section click the `New repository secret` button
-- name your token `NPM_TOKEN` as this is what the release action expects
-- paste the token you generated into the `Secret` field and hit save
+If you are creating a new package, you will need to manually publish once first 
+in order to have access to settings to set up Trusted Publishing. 
+Be sure you are okay with the version in `package.json` as the first version then run `npm publish`. 
 
 Now you should be free to merge your PR and release your package with release-plan 🎉
 
