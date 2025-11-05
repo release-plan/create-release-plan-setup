@@ -26,11 +26,11 @@ jobs:
       attestations: write
 
     steps:
-      - uses: actions/checkout@v4<% if (pnpm) { %>
+      - uses: actions/checkout@v5<% if (pnpm) { %>
       - uses: pnpm/action-setup@v4<% if (!hasPackageManager) { %>
         with:
           version: 9<% } %><% } %>
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 22
           registry-url: 'https://registry.npmjs.org'<% if (pnpm) { %>
