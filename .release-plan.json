@@ -1,18 +1,22 @@
 {
   "solution": {
     "create-release-plan-setup": {
-      "impact": "major",
-      "oldVersion": "4.3.0",
-      "newVersion": "5.0.0",
+      "impact": "minor",
+      "oldVersion": "5.0.0",
+      "newVersion": "5.1.0",
       "tagName": "latest",
       "constraints": [
         {
-          "impact": "major",
-          "reason": "Appears in changelog section :boom: Breaking Change"
+          "impact": "minor",
+          "reason": "Appears in changelog section :rocket: Enhancement"
+        },
+        {
+          "impact": "patch",
+          "reason": "Appears in changelog section :house: Internal"
         }
       ],
       "pkgJSONPath": "./package.json"
     }
   },
-  "description": "## Release (2025-09-08)\n\n* create-release-plan-setup 5.0.0 (major)\n\n#### :boom: Breaking Change\n* `create-release-plan-setup`\n  * [#227](https://github.com/embroider-build/create-release-plan-setup/pull/227) drop support for Node 18 ([@mansona](https://github.com/mansona))\n\n#### Committers: 1\n- Chris Manson ([@mansona](https://github.com/mansona))\n"
+  "description": "## Release (2025-11-05)\n\n* create-release-plan-setup 5.1.0 (minor)\n\n#### :rocket: Enhancement\n* `create-release-plan-setup`\n  * [#235](https://github.com/release-plan/create-release-plan-setup/pull/235) update actions/checkout and actions/setup-node ([@mansona](https://github.com/mansona))\n  * [#219](https://github.com/release-plan/create-release-plan-setup/pull/219) Add commit signing ([@gossi](https://github.com/gossi))\n  * [#234](https://github.com/release-plan/create-release-plan-setup/pull/234) Use Trusted Publishing rather than NPM_TOKEN to publish ([@kategengler](https://github.com/kategengler))\n  * [#200](https://github.com/release-plan/create-release-plan-setup/pull/200) Extract check for release and prepare to reusable actions ([@kategengler](https://github.com/kategengler))\n\n#### :house: Internal\n* `create-release-plan-setup`\n  * [#236](https://github.com/release-plan/create-release-plan-setup/pull/236) run create-release-plan-setup ([@mansona](https://github.com/mansona))\n\n#### Committers: 3\n- Chris Manson ([@mansona](https://github.com/mansona))\n- Katie Gengler ([@kategengler](https://github.com/kategengler))\n- Thomas Gossmann ([@gossi](https://github.com/gossi))\n"
 }
