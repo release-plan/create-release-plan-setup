@@ -1,28 +1,5 @@
 # Changelog
 
-## Release (2025-11-05)
-
-* create-release-plan-setup 5.1.0 (minor)
-
-#### :rocket: Enhancement
-* `create-release-plan-setup`
-  * [#235](https://github.com/release-plan/create-release-plan-setup/pull/235) update actions/checkout and actions/setup-node ([@mansona](https://github.com/mansona))
-  * [#219](https://github.com/release-plan/create-release-plan-setup/pull/219) Add commit signing ([@gossi](https://github.com/gossi))
-  * [#234](https://github.com/release-plan/create-release-plan-setup/pull/234) Use Trusted Publishing rather than NPM_TOKEN to publish ([@kategengler](https://github.com/kategengler))
-  * [#200](https://github.com/release-plan/create-release-plan-setup/pull/200) Extract check for release and prepare to reusable actions ([@kategengler](https://github.com/kategengler))
-
-#### :house: Internal
-* `create-release-plan-setup`
-  * [#239](https://github.com/release-plan/create-release-plan-setup/pull/239) Fix deployment ([@mansona](https://github.com/mansona))
-  * [#237](https://github.com/release-plan/create-release-plan-setup/pull/237) Prepare Release v5.1.0 ([@github-actions[bot]](https://github.com/apps/github-actions))
-  * [#236](https://github.com/release-plan/create-release-plan-setup/pull/236) run create-release-plan-setup ([@mansona](https://github.com/mansona))
-
-#### Committers: 4
-- Chris Manson ([@mansona](https://github.com/mansona))
-- Katie Gengler ([@kategengler](https://github.com/kategengler))
-- Thomas Gossmann ([@gossi](https://github.com/gossi))
-- [@github-actions[bot]](https://github.com/apps/github-actions)
-
 ## Release (2025-09-08)
 
 * create-release-plan-setup 5.0.0 (major)
