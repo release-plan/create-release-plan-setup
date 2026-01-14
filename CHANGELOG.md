@@ -1,5 +1,21 @@
 # Changelog
 
+## Release (2026-01-14)
+
+* create-release-plan-setup 5.2.0 (minor)
+
+#### :rocket: Enhancement
+* `create-release-plan-setup`
+  * [#254](https://github.com/release-plan/create-release-plan-setup/pull/254) Update action versions ([@mansona](https://github.com/mansona))
+
+#### :bug: Bug Fix
+* `create-release-plan-setup`
+  * [#252](https://github.com/release-plan/create-release-plan-setup/pull/252) Move npm latest install outside of pnpm if ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
+#### Committers: 2
+- Chris Manson ([@mansona](https://github.com/mansona))
+- Robbie Wagner ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
 ## Release (2025-11-05)
 
 * create-release-plan-setup 5.1.0 (minor)
