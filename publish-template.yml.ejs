@@ -27,7 +27,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6<% if (pnpm) { %>
-      - uses: pnpm/action-setup@v4<% if (!hasPackageManager) { %>
+      - uses: pnpm/action-setup@v5<% if (!hasPackageManager) { %>
         with:
           version: 9<% } %><% } %>
       - uses: actions/setup-node@v6
