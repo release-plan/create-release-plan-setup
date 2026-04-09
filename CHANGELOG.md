@@ -1,5 +1,18 @@
 # Changelog
 
+## Release (2026-04-09)
+
+* create-release-plan-setup 5.3.0 (minor)
+
+#### :rocket: Enhancement
+* `create-release-plan-setup`
+  * [#270](https://github.com/release-plan/create-release-plan-setup/pull/270) update node and stop updating npm in publish.yml ([@mansona](https://github.com/mansona))
+  * [#268](https://github.com/release-plan/create-release-plan-setup/pull/268) update release-plan to v0.18 ([@mansona](https://github.com/mansona))
+  * [#267](https://github.com/release-plan/create-release-plan-setup/pull/267) update pnpm/action-setup to v5 ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
 ## Release (2026-01-14)
 
 * create-release-plan-setup 5.2.0 (minor)
