@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       ejs:
-        specifier: ^5.0.1
-        version: 5.0.1
+        specifier: ^5.0.2
+        version: 5.0.2
       execa:
         specifier: ^9.5.1
         version: 9.5.1
@@ -1156,8 +1156,8 @@ packages:
   ecc-jsbn@0.1.2:
     resolution: {integrity: sha512-eh9O+hwRHNbG4BLTjEl3nw044CkGm5X6LoaCf7LPp7UU8Qrt47JYNi6nPX8xjW97TKGKm1ouctg0QSpZe9qrnw==}
 
-  ejs@5.0.1:
-    resolution: {integrity: sha512-COqBPFMxuPTPspXl2DkVYaDS3HtrD1GpzOGkNTJ1IYkifq/r9h8SVEFrjA3D9/VJGOEoMQcrlhpntcSUrM8k6A==}
+  ejs@5.0.2:
+    resolution: {integrity: sha512-IpbUaI/CAW86l3f+T8zN0iggSc0LmMZLcIW5eRVStLVNCoTXkE0YlncbbH50fp8Cl6zHIky0sW2uUbhBqGw0Jw==}
     engines: {node: '>=0.12.18'}
     hasBin: true
 
@@ -3926,7 +3926,7 @@ snapshots:
       jsbn: 0.1.1
       safer-buffer: 2.1.2
 
-  ejs@5.0.1: {}
+  ejs@5.0.2: {}
 
   ember-rfc176-data@0.3.18: {}
 
