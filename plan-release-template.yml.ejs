@@ -47,6 +47,7 @@ jobs:
 
       - uses: peter-evans/create-pull-request@v8
         name: Create Prepare Release PR
+        if: steps.explanation.outputs.new-version != '' && steps.explanation.outputs.new-version != 'vnull'
         with:
           commit-message: "Prepare Release ${{ steps.explanation.outputs.new-version}} using 'release-plan'"
           labels: "internal"
