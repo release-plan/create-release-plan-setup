@@ -1,0 +1,8 @@
+# Unlabeled Changes
+
+* `create-release-plan-setup`
+  * [#296](https://github.com/release-plan/create-release-plan-setup/pull/296) Remove default use of pull_request_target. Make it optional by ([@kategengler](https://github.com/kategengler))
+  * [#294](https://github.com/release-plan/create-release-plan-setup/pull/294) Add a top-level permissions block to the plan-release workflow ([@NullVoxPopuli-ai-agent](https://github.com/NullVoxPopuli-ai-agent))
+
+
+*Cannot plan release until the above changes are labeled*.
