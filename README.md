@@ -69,6 +69,29 @@ Be sure you are okay with the version in `package.json` as the first version the
 
 Now you should be free to merge your PR and release your package with release-plan 🎉
 
+### (Optional) Uncomment `pull_request_target` in your plan-release.yml workflow
+
+`pull_request_target` is a potentially dangerous trigger for a workflow, only if 
+it runs untrusted code. However, it is required to be able to rerun `plan-release`
+when an already-merged PR has been labeled or unlabled. This is generally safe
+because the workflow does not execute any code from the PR, only from the default
+branch. To use this trigger, you will also need to [create a policy to allow it on
+your repo](https://docs.github.com/en/actions/reference/security/securely-using-pull_request_target).
+
+## Development
+
+The test suite requires [zizmor](https://docs.zizmor.sh/installation/). Run it 
+with `pnpm test`.
+
+### Updating workflow actions in the templates
+
+The weekly **Update generated workflow actions** workflow checks the action
+references in all workflow variants against upstream stable version tags and 
+opens a PR updating their commit SHAs in the templates.
+
+The workflow needs permission to create pull requests (see the Actions settings
+above).
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE.md).
