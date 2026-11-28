@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "ejs": "^5.0.1",
-    "execa": "^9.5.1",
+    "execa": "^10.2.1",
     "gitconfiglocal": "^2.1.0",
     "github-label-sync": "^3.0.0",
     "hosted-git-info": "^9.0.2",
